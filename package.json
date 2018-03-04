@@ -4,7 +4,8 @@
   "description": "Toy Neural Network JavaScript library for Coding Train tutorials",
   "main": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,10 @@
   },
   "homepage": "https://github.com/shiffman/Toy-Neural-Network-JS#readme",
   "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
     "jest": "^22.1.4"
-  }
+  },
+  "dependencies": {}
 }
