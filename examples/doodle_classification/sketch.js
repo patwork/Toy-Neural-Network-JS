@@ -23,7 +23,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(280, 280);
+  createCanvas(700, 700);
   background(255);
 
   // Preparing the data
